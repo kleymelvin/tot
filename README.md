@@ -1,3 +1,5 @@
+npm install @solana/web3.js
+
 Submit email di file email.txt
 
 Submit address SOLANA di file addrsol.txt

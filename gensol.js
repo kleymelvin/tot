@@ -7,7 +7,7 @@ const TOTAL_WALLETS = 100;
 
 // File output
 const PRIV_FILE = 'privsol.txt';       // Berisi private key base58 (1 per baris)
-const ADDR_FILE = 'addresses.txt';     // Berisi public address (1 per baris)
+const ADDR_FILE = 'addrsol.txt.txt';     // Berisi public address (1 per baris)
 
 const privOutput = [];
 const addrOutput = [];

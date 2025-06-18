@@ -51,7 +51,7 @@ async function createAtaWalletWithRetry(ownerAddress, headers, taskId = "") {
   for (let attempt = 1; attempt <= MAX_ATA_RETRIES; attempt++) {
     try {
       console.log(`  └──> [${taskId}] Kirim ATA (Attempt ${attempt})`);
-      const res = await axios.post("http://3.36.244.141:8000/api/wallet/create/ata", walletPayload, {
+      const res = await axios.post("https://ec2.tomatok.net/api/wallet/create/ata/v2", walletPayload, {
         headers, httpsAgent: agent
       });
 
